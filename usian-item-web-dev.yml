@@ -2,7 +2,7 @@ spring:
   application:
     name: usian-item-web
 server:
-  port: 8198
+  port: 8091
 eureka:
   client:
     service-url:
@@ -14,7 +14,7 @@ fdfs:
     width: 60
     height: 60
   tracker-list: # tracker地址：你的虚拟机服务器地址+端口（默认是22122）
-    - 192.168.17.130:22122
+    - 192.168.108.132:22122
 feign:
   hystrix:
     enabled: true #开启hystrix的开发
